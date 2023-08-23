@@ -1,0 +1,696 @@
+{
+	"pages": [
+		// 主页
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "糯米萌宠社区",
+				//"navigationBarBackgroundColor": "#FFF",
+				//"navigationBarTextStyle": "white",
+				//"backgroundColorTop": "#F7F7F7",
+				//"backgroundColorBottom": "#F7F7F7",
+				//"disableScroll": false, 
+				//"enablePullDownRefresh": false,
+				"onReachBottomDistance": 50,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"support": true,
+						"color": "#fa436a",
+						"style": "default"
+					}
+				}
+			}
+		},
+		// 404
+		{
+			"path": "pages/pet/404",
+			"style": {
+				"navigationBarTitleText": "404提示"
+			}
+		},
+		// 网页
+		{
+			"path": "pages/pet/web",
+			"style": {
+				"navigationBarTitleText": "推荐"
+			}
+		},
+		// 选择城市
+		{
+			"path": "pages/pet/city",
+			"style": {
+				"navigationBarTitleText": "选择城市"
+			}
+		},
+		// 领养中心
+		{
+			"path": "pages/pet/list",
+			"style": {
+				"navigationBarTitleText": "领养中心",
+				"navigationStyle": "custom"
+			}
+		},
+		// 领养详情
+		{
+			"path": "pages/pet/pet-view",
+			"style": {
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50,
+				"navigationBarTitleText": "详情"
+			}
+		},
+		// 帖子详情
+		{
+			"path": "pages/pet/forum-view",
+			"style": {
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50,
+				"navigationBarTitleText": "帖子详情"
+			}
+		},
+		// 申请领养
+		{
+			"path": "pages/pet/apply-post",
+			"style": {
+				"navigationBarTitleText": "申请领养"
+			}
+		},
+		// 申请详情
+		{
+			"path": "pages/pet/apply-view",
+			"style": {
+				"navigationBarTitleText": "申请详情"
+			}
+		},
+		// 发布宠物信息
+		{
+			"path": "pages/pet/pet-post",
+			"style": {
+				"navigationBarTitleText": "发布宠物信息"
+			}
+		},
+		// 发布帖子
+		{
+			"path": "pages/pet/forum-post",
+			"style": {
+				"navigationBarTitleText": "发布帖子"
+			}
+		},
+		// 发布留言
+		{
+			"path": "pages/pet/comment-post",
+			"style": {
+				"navigationBarTitleText": "发布留言"
+			}
+		},
+		// 发布帖子评论
+		{
+			"path": "pages/pet/forum-comment-post",
+			"style": {
+				"navigationBarTitleText": "发布评论"
+			}
+		},
+		// 我的
+		{
+			"path": "pages/pet/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		// 我的消息
+		{
+			"path": "pages/pet/my-notify",
+			"style": {
+				"navigationBarTitleText": "我的消息"
+			}
+		},
+		// 我的帖子
+		{
+			"path": "pages/pet/my-post",
+			"style": {
+				"navigationBarTitleText": "我的帖子"
+			}
+		},
+		// 我的申请
+		{
+			"path": "pages/pet/my-apply",
+			"style": {
+				"navigationBarTitleText": "我的申请"
+			}
+		},
+		// 我的发布
+		{
+			"path": "pages/pet/my-pet",
+			"style": {
+				"navigationBarTitleText": "我的领养"
+			}
+		},
+		// 付费问答
+		{
+			"path": "pages/pet/ask",
+			"style": {
+				"navigationBarTitleText": "付费问答"
+			}
+		},
+		// 互助社区
+		{
+			"path": "pages/pet/forum",
+			"style": {
+				"navigationBarTitleText": "互助社区"
+			}
+		},
+		// 公告
+		{
+			"path": "pages/index/notice/notice",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "公告",
+				"app-plus": {
+					"pullToRefresh": {
+						"support": true,
+						"color": "#fa436a",
+						"style": "default"
+					}
+				}
+			}
+		},
+		// 公告详情
+		{
+			"path": "pages/index/notice/detail",
+			"style": {
+				"navigationBarTitleText": "公告详情"
+			}
+		},
+		// 商品搜索
+		{
+			"path": "pages/index/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		// 消息中心
+		{
+			"path": "pages/notify/notify",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "消息中心",
+				"app-plus": {
+					"bounce": "none",
+					"pullToRefresh": {
+						"support": true,
+						"color": "#fa436a",
+						"style": "default"
+					}
+				}
+			}
+		},
+		// 我的
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "我的",
+				// #ifdef MP
+				"navigationStyle": "custom",
+				// #endif
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"type": "transparent",
+						"buttons": [
+							{
+								"fontSrc": "/static/iconfont.ttf",
+								"text": "\ue658",
+								"fontSize": "28",
+								"color": "#303133",
+								"width": "42px",
+								"background": "rgba(0,0,0,0)"
+							},
+							{
+								"fontSrc": "/static/iconfont.ttf",
+								"text": "\ue618",
+								"fontSize": "26",
+								"color": "#303133",
+								"background": "rgba(0,0,0,0)",
+								"redDot": false
+							}
+						]
+					}
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/pet/public",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "社区",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/pet/service",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "服务",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/pet/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的预约",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/pet/petInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的宠物",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"subPackages": [
+		// 设置
+		{
+			"root": "pages/set",
+			"pages": [
+				// 设置
+				{
+					"path": "set",
+					"style": {
+						"navigationBarTitleText": "设置"
+					}
+				},
+				// 授权管理
+				{
+					"path": "authorization/list",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "授权列表",
+						"app-plus": {
+							"pullToRefresh": {
+								"support": true,
+								"color": "#fa436a",
+								"style": "default"
+							}
+						}
+					}
+				},
+				// 反馈详情
+				{
+					"path": "feedback/detail",
+					"style": {
+						"navigationBarTitleText": "意见反馈详情"
+					}
+				},
+				// 反馈列表
+				{
+					"path": "feedback/list",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "意见反馈",
+						"app-plus": {
+							"pullToRefresh": {
+								"support": true,
+								"color": "#fa436a",
+								"style": "default"
+							}
+						}
+					}
+				},
+				// 反馈
+				{
+					"path": "feedback/feedback",
+					"style": {
+						"navigationBarTitleText": "意见反馈"
+					}
+				},
+				// 关于
+				{
+					"path": "about/about",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				// 关于详情
+				{
+					"path": "about/detail",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				// 站点帮助
+				{
+					"path": "helper/index",
+					"style": {
+						"navigationBarTitleText": "站点帮助"
+					}
+				},
+				// 站点帮助详情
+				{
+					"path": "helper/detail",
+					"style": {
+						"navigationBarTitleText": "站点帮助详情"
+					}
+				},
+				// 开票历史列表
+				{
+					"path": "invoice/list",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "开票历史",
+						"app-plus": {
+							"pullToRefresh": {
+								"support": true,
+								"color": "#fa436a",
+								"style": "default"
+							}
+						}
+					}
+				},
+				// 开票列表
+				{
+					"path": "invoice/invoice",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "发票管理",
+						"app-plus": {
+							"pullToRefresh": {
+								"support": true,
+								"color": "#fa436a",
+								"style": "default"
+							}
+						}
+					}
+				},
+				// 开票管理
+				{
+					"path": "invoice/manage",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				}
+			]
+		},
+		// 公共
+		{
+			"root": "pages/public",
+			"pages": [
+				// 注册
+				{
+					"path": "register",
+					"style": {
+						"navigationBarTitleText": "注册",
+						"navigationStyle": "custom",
+						"app-plus": {
+							"titleNView": false,
+							"animationType": "slide-in-bottom"
+						}
+					}
+				},
+				// 登录
+				{
+					"path": "login",
+					"style": {
+						"navigationBarTitleText": "登录",
+						"navigationStyle": "custom",
+						"app-plus": {
+							"titleNView": false,
+							"animationType": "slide-in-bottom"
+						}
+					}
+				},
+				// 登录类型
+				{
+					"path": "logintype",
+					"style": {
+						"navigationBarTitleText": "登录"
+					}
+				},
+				// 修改密码
+				{
+					"path": "password",
+					"style": {
+						"navigationBarTitleText": "忘记密码",
+						"navigationStyle": "custom",
+						"app-plus": {
+							"titleNView": false,
+							"animationType": "slide-in-bottom"
+						}
+					}
+				}
+			]
+		},
+		// 我的
+		{
+			"root": "pages/user",
+			"pages": [
+				// 直播测试
+				{
+					"path": "live",
+					"style": {
+						"navigationBarTitleText": "直播"
+					}
+				},
+				// 用户资料
+				{
+					"path": "userinfo/userinfo",
+					"style": {
+						"navigationBarTitleText": "修改资料"
+					}
+				},
+				// 我的收藏
+				{
+					"path": "collection/collection",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "我的收藏",
+						"app-plus": {
+							"pullToRefresh": {
+								"support": true,
+								"color": "#fa436a",
+								"style": "default"
+							}
+						}
+					}
+				},
+				// 我的足迹
+				{
+					"path": "footprint/footprint",
+					"style": {
+						"navigationBarTitleText": "我的足迹"
+					}
+				},
+				// 我的优惠券
+				{
+					"path": "coupon/coupon",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "我的优惠券",
+						"app-plus": {
+							"pullToRefresh": {
+								"support": true,
+								"color": "#fa436a",
+								"style": "default"
+							}
+						}
+					}
+				},
+				// 优惠券详情
+				{
+					"path": "coupon/detail",
+					"style": {
+						"navigationBarTitleText": "优惠券详情"
+					}
+				},
+				// 领券中心
+				{
+					"path": "coupon/list",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "领券中心",
+						"app-plus": {
+							"pullToRefresh": {
+								"support": true,
+								"color": "#fa436a",
+								"style": "default"
+							}
+						}
+					}
+				},
+				// 收货地址
+				{
+					"path": "address/address",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "收货地址",
+						"app-plus": {
+							"pullToRefresh": {
+								"support": true,
+								"color": "#fa436a",
+								"style": "default"
+							}
+						}
+					}
+				},
+				// 收货地址管理
+				{
+					"path": "address/manage",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				// 支付
+				{
+					"path": "money/pay",
+					"style": {
+						"navigationBarTitleText": "支付",
+						"navigationStyle": "custom"
+					}
+				},
+				// 支付成功
+				{
+					"path": "money/success",
+					"style": {
+						"navigationBarTitleText": "支付成功",
+						"navigationStyle": "custom"
+					}
+				},
+				// 充值中心
+				{
+					"path": "account/recharge",
+					"style": {
+						"navigationBarTitleText": "充值中心"
+					}
+				},
+				// 会员等级
+				{
+					"path": "account/level",
+					"style": {
+						"navigationBarTitleText": "会员等级"
+					}
+				},
+				// 我的账户
+				{
+					"path": "account/account",
+					"style": {
+						"navigationBarTitleText": "我的账户"
+					}
+				},
+				// 账单明细
+				{
+					"path": "account/bill",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "账单明细",
+						"app-plus": {
+							"pullToRefresh": {
+								"support": true,
+								"color": "#fa436a",
+								"style": "default"
+							}
+						}
+					}
+				},
+				// 积分详情
+				{
+					"path": "account/integral",
+					"style": {
+						"navigationBarTitleText": "积分详情"
+					}
+				},
+				// 我的虚拟码
+				{
+					"path": "virtual/index",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "我的虚拟码",
+						"app-plus": {
+							"pullToRefresh": {
+								"support": true,
+								"color": "#fa436a",
+								"style": "default"
+							}
+						}
+					}
+				},
+				// 虚拟码详情
+				{
+					"path": "virtual/detail",
+					"style": {
+						"navigationBarTitleText": "虚拟码详情"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "糯米萌宠社区",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8",
+		"backgroundColorTop": "#FFFFFF",
+		"app-plus" : {
+			"bounce" : "none" //可选: 是否禁止iOS回弹和Android触顶触底的弧形阴影, 默认允许 (可配在 'globalStyle')
+		},
+		"mp-alipay":{
+			"allowsBounceVertical": "NO"
+		},
+		"usingComponents":{
+		  "painter": "/wxcomponents/painter/painter"
+		}
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			//"tm-(.*)": "@/tm/tm-$1/tm-$1.vue",
+			//"^tui-(.*)": "@/thorui/thorui/tui-$1/tui-$1.vue",
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+		}
+	},
+	"tabBar": {
+		"color": "#C0C4CC",
+		"selectedColor": "#fa436a",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tab-home.png",
+				"selectedIconPath": "static/tab-home-rf.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/pet/service",
+				"iconPath": "static/tab-pet.png",
+				"selectedIconPath": "static/tab-pet-rf.png",
+				"text": "服务"
+			},
+			// {
+			// 	"pagePath": "pages/pet/my-notify",
+			// 	"iconPath": "static/tab-notify.png",
+			// 	"selectedIconPath": "static/tab-notify-rf.png",
+			// 	"text": "消息"
+			// },
+			{
+				"pagePath": "pages/pet/public",
+				"iconPath": "static/tab-forum.png",
+				"selectedIconPath": "static/tab-forum-rf.png",
+				"text": "社区"
+			},
+			{
+				"pagePath": "pages/profile/profile",
+				"iconPath": "static/tab-my.png",
+				"selectedIconPath": "static/tab-my-rf.png",
+				"text": "我的"
+			}
+		]
+	}
+}
