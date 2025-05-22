@@ -24,3 +24,5 @@
 后端 java语言的SpringBoot框架、MySql数据库、Maven依赖管理等；
 
 前端 Vue.js语法的UniApp框架。
+
+另一个版本的宠物服务小程序传送门：https://github.com/KakarottoCui/UniChongWuFuwu
